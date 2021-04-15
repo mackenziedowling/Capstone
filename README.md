@@ -1,4 +1,4 @@
-![title](/Documents/images/Banner.png)
+![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Banner.png)
 
 # Problem Statment
 
@@ -20,7 +20,7 @@ The dataset presented a number of challenges. In initial steps the challenges in
 ## Missing Values
 Missing value methods for mean, median, and KNN were explored. Based on the descriptive statistics and change in distribution skewness the KNN imputation was used to fill missing values. 
 
-![title](/Documents/images/Missingvalues.png)
+![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Missingvalues.png)
 
 
 ## Class Imbalance
@@ -30,9 +30,9 @@ Several methods were explored against a baseline mode. The two methods that perf
 
 
 ## Modeling
-![title](/Documents/images/Dementia_baseline2.2.png)
+![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Dementia_baseline2.2.png)
 
-![title](/Documents/images/dementia1confusionMatrix.png)
+![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/dementia1confusionMatrix.png)
 
 
 
@@ -41,7 +41,7 @@ Several methods were explored against a baseline mode. The two methods that perf
 Feature that stood out were age, indicating that the most common difference that all dementia patients had was their age demographic. Other lab test that indicate varying levels of blood counts were also features that stood out. 
 The final models were by no means the best model there are many more next steps that could be considered to improve this project.
 
-![title](/Documents/images/features1.png)
+![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/features1.png)
 
 
 ## Next steps:
