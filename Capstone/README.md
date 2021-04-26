@@ -1,8 +1,8 @@
-![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Banner.png)
+![title](https://github.com/mackenziedowling/Projects/blob/main/Capstone/Documents/Images/Banner.png)
 
 # Problem Statment
 
-With the amount of data and technology at our fingertips we have the ability to build a proactive healthcare system instead of a reactive healthcare system. Saving time, money, energy, and heartache we can use this to help predict and detect early sign of disease. The goal of this project is to build a predictive model to classify patient diagnosed with dementia hospital patients using routine EHR data from the MIMCIII database. The main objective is to understand what differentiates patients diagnosed with dementia from those who are not. 
+With the amount of data and technology at our fingertips we have the ability to build a proactive healthcare system instead of a reactive healthcare system. Saving time, money, energy, and heartache we can use this to help predict and detect early sign of disease. The goal of this project is to build a predictive model to classify patient diagnosed with dementia hospital patients using routine EHR data from the MIMCIII database. The main objective is to understand what differentiates patients diagnosed with dementia from those who are not.
 
 ## Background info
 
@@ -15,37 +15,37 @@ For this project the dataset being used was acquired through the MIMIC III datab
 
 
 ## Challenges
-The dataset presented a number of challenges. In initial steps the challenges included handling a large database of encoded medical terms. The process done to extract the data was done in google cloud big query. The second challenge is common in most health data records, missing values. How to handle missing values was a major consideration when data cleaning. Lastly the biggest challenge is accounting for imbalanced data. The data had a major imbalance with the patients who were not diagnosed with dementia as the majority class. 
+The dataset presented a number of challenges. In initial steps the challenges included handling a large database of encoded medical terms. The process done to extract the data was done in google cloud big query. The second challenge is common in most health data records, missing values. How to handle missing values was a major consideration when data cleaning. Lastly the biggest challenge is accounting for imbalanced data. The data had a major imbalance with the patients who were not diagnosed with dementia as the majority class.
 
 ## Missing Values
-Missing value methods for mean, median, and KNN were explored. Based on the descriptive statistics and change in distribution skewness the KNN imputation was used to fill missing values. 
+Missing value methods for mean, median, and KNN were explored. Based on the descriptive statistics and change in distribution skewness the KNN imputation was used to fill missing values.
 
-![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Missingvalues.png)
+![title](https://github.com/mackenziedowling/Projects/blob/main/Capstone/Documents/Images/Missingvalues.png)
 
 
 ## Class Imbalance
-Several methods were explored against a baseline mode. The two methods that performed the best were Tomek Links and Neighborhood Cleaning Rule. 
+Several methods were explored against a baseline mode. The two methods that performed the best were Tomek Links and Neighborhood Cleaning Rule.
 
 
 
 
 ## Modeling
-![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/Dementia_baseline2.2.png)
+![title](https://github.com/mackenziedowling/Projects/blob/main/Capstone/Documents/Images/Dementia_baseline2.2.png)
 
-![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/dementia1confusionMatrix.png)
+![title](https://github.com/mackenziedowling/Projects/blob/main/Capstone/Documents/Images/dementia1confusionMatrix.png)
 
 
 
 
 ## Conclusion
-Feature that stood out were age, indicating that the most common difference that all dementia patients had was their age demographic. Other lab test that indicate varying levels of blood counts were also features that stood out. 
+Feature that stood out were age, indicating that the most common difference that all dementia patients had was their age demographic. Other lab test that indicate varying levels of blood counts were also features that stood out.
 The final models were by no means the best model there are many more next steps that could be considered to improve this project.
 
-![title](https://github.com/mackenziedowling/Capstone/blob/main/Documents/Images/features1.png)
+![title](https://github.com/mackenziedowling/Projects/blob/main/Capstone/Documents/Images/features1.png)
 
 
 ## Next steps:
 Finding more balanced data
 Further model exploration
-Data regarding physical examination 
-MRI and ECG scans could be used to add to the feature set 
+Data regarding physical examination
+MRI and ECG scans could be used to add to the feature set
